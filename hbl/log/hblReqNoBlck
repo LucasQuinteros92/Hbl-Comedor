@@ -1,0 +1,276 @@
+***********************************************************************************
+Fecha / Hora : 2023/03/15 17:23:25
+Modulo inicializado
+***********************************************************************************
+Fecha / Hora : 2023/03/15 17:23:25
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=832 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb232e570>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/03/16 10:55:03
+Modulo inicializado
+***********************************************************************************
+Fecha / Hora : 2023/03/16 10:55:04
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb1a34830>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/03/16 10:56:17
+Modulo inicializado
+***********************************************************************************
+Fecha / Hora : 2023/03/16 10:56:17
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb10f52f0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/03/16 11:01:50
+Modulo inicializado
+***********************************************************************************
+Fecha / Hora : 2023/03/16 11:01:50
+Modulo inicializado
+***********************************************************************************
+Fecha / Hora : 2023/03/16 11:01:52
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb1adc490>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/03/16 11:01:55
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/validar.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb230f9d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/03/16 11:02:25
+Modulo inicializado
+***********************************************************************************
+Fecha / Hora : 2023/03/16 11:02:25
+Modulo inicializado
+***********************************************************************************
+Fecha / Hora : 2023/03/16 11:02:27
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=1212121212 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb1adcf90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/03/16 11:02:27
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/validar.php?tarjeta=1212121212 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb1a78370>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/03/16 11:03:16
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb22d04f0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/03/16 11:03:20
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/validar.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb22d0c90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/03/16 11:03:42
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=1212121212 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb1a91390>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/03/16 11:03:43
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/validar.php?tarjeta=1212121212 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb1a917f0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/03/16 11:03:57
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb22d08d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/03/16 11:04:00
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/validar.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb1a91470>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/03/16 11:06:07
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=1212121212 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb1a91a70>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/03/16 11:06:17
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/validar.php?tarjeta=1212121212 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb1a91b70>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/03/16 11:06:35
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/validar.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb22d0770>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/03/16 11:12:32
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb22cd8d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/03/16 11:13:30
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb19505d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/03/16 11:16:45
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb230f830>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/03/16 11:16:59
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb1ad9ad0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/03/16 11:18:04
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb1b4c850>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/03/16 11:18:14
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb1b4ccf0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/03/16 11:18:26
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/validar.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb11eb290>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/03/16 11:18:44
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/validar.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb11eb850>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/03/16 11:19:35
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb1ac8890>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/03/16 11:19:47
+Error al intentar hacer req: HTTPConnectionPool(host='www.google.com36739686', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb1ac8d50>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+***********************************************************************************
+Fecha / Hora : 2023/03/16 11:20:32
+http://www.google.com<Response [200]>
+***********************************************************************************
+Fecha / Hora : 2023/03/16 11:20:52
+http://www.google.com<Response [200]>
+***********************************************************************************
+Fecha / Hora : 2023/07/20 17:45:37
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb19b2690>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/20 17:45:55
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb11953b0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/20 17:47:29
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb19b2dd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/20 17:48:51
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb1195310>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 11:14:48
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb11e4490>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 11:20:58
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb1a48cd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 11:28:46
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb1a9d770>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 11:28:57
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb1a9d390>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 12:02:43
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb1a54150>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 12:03:35
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb1a54210>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 12:35:35
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb1ad2e70>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 12:35:42
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb1a77730>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 12:41:02
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb10d5d90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 12:42:26
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb2274a50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 12:53:19
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=1212121212 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb119ea10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 12:53:24
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb119eed0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 12:59:03
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb11ec090>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 13:01:15
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb11a4bb0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 14:34:20
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb1a93190>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 14:34:40
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb1a93990>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 14:36:55
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb22b1c90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 14:37:24
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb1aa1730>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 14:39:24
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb1a7b9d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 14:40:01
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb1a7b950>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 14:47:59
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb2331750>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 14:48:47
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb11ee7b0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 14:54:06
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb1a938b0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 14:55:12
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb1a93ad0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 14:56:51
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb1a902f0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 14:56:55
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=1212121212 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb1a90a30>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 15:05:45
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb1a50930>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 15:38:24
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb22b1f70>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 15:39:55
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb1a94510>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 15:40:03
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb1a94cf0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 15:40:18
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb1aa3210>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 15:41:58
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb1a94f10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 15:42:43
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb22b1730>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 15:46:42
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb114efd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 15:48:35
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb11589d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 15:49:27
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb115e790>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 15:50:18
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb11589d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 16:09:51
+request exitoso:http://www.google.com<Response [200]>
+***********************************************************************************
+Fecha / Hora : 2023/07/21 16:09:58
+request exitoso:http://www.google.com<Response [200]>
+***********************************************************************************
+Fecha / Hora : 2023/07/21 16:12:36
+Error al intentar hacer req: HTTPConnectionPool(host='www.google.com36739686', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb23336f0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 16:13:32
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb2331fd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 16:30:03
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb2332ad0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 16:30:31
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb2273b50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 16:30:42
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb1a523d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 16:30:53
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb22736d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 16:30:55
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb1a520b0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 16:30:56
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb1a52970>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 16:32:09
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb1a50050>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 16:32:11
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb1a50490>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 16:34:08
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb1a60a90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 16:34:21
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb1a50130>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 16:41:34
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb23327d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+***********************************************************************************
+Fecha / Hora : 2023/07/21 16:51:27
+Error al intentar hacer req: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /jphaccess/trp/alcoholemia.php?tarjeta=36739686 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb5909ff0>: Failed to establish a new connection: [Errno 111] Connection refused'))

@@ -1,0 +1,1146 @@
+inicializacionHBL  -  21/07/23  -  16:49:20
+
+inicializacionHBL  -  21/07/23  -  16:50:23
+
+inicializacionHBL  -  21/07/23  -  16:51:10
+
+measure_temp  -  21/07/23  -  16:51:10
+
+get_throttled  -  21/07/23  -  16:51:10
+
+lecturaParametrosHBL  -  21/07/23  -  16:51:10
+
+sincronizarHora  -  21/07/23  -  16:51:10
+
+append_multiple_lines  -  21/07/23  -  16:51:10
+
+Salidas - __init__  -  21/07/23  -  16:51:11
+
+lcd - __init__  -  21/07/23  -  16:51:11
+
+lcd - _init  -  21/07/23  -  16:51:11
+
+lcd - _inst  -  21/07/23  -  16:51:11
+
+lcd - _byte  -  21/07/23  -  16:51:11
+
+inicializacion  -  21/07/23  -  16:51:11
+
+inicializacion  -  21/07/23  -  16:51:11
+
+NetworkConfig  -  21/07/23  -  16:51:11
+
+escribeParametros  -  21/07/23  -  16:51:11
+
+append_multiple_lines  -  21/07/23  -  16:51:11
+
+append_multiple_lines  -  21/07/23  -  16:51:11
+
+append_multiple_lines  -  21/07/23  -  16:51:11
+
+append_multiple_lines  -  21/07/23  -  16:51:12
+
+append_multiple_lines  -  21/07/23  -  16:51:12
+
+append_multiple_lines  -  21/07/23  -  16:51:12
+
+append_multiple_lines  -  21/07/23  -  16:51:12
+
+GSM_Modem_Init  -  21/07/23  -  16:51:14
+
+inicializacion  -  21/07/23  -  16:51:14
+
+inicializacion  -  21/07/23  -  16:51:14
+
+startThreadSerial1  -  21/07/23  -  16:51:14
+
+checkLedsBuzzer  -  21/07/23  -  16:51:14
+
+inicializacion tcp  -  21/07/23  -  16:51:16
+
+inicializacion  -  21/07/23  -  16:51:16
+
+threadCount  -  21/07/23  -  16:51:35
+
+threadCount  -  21/07/23  -  16:51:45
+
+inicializacionHBL  -  21/07/23  -  16:53:27
+
+measure_temp  -  21/07/23  -  16:53:27
+
+get_throttled  -  21/07/23  -  16:53:27
+
+lecturaParametrosHBL  -  21/07/23  -  16:53:27
+
+sincronizarHora  -  21/07/23  -  16:53:27
+
+append_multiple_lines  -  21/07/23  -  16:53:27
+
+Salidas - __init__  -  21/07/23  -  16:53:28
+
+lcd - __init__  -  21/07/23  -  16:53:28
+
+lcd - _init  -  21/07/23  -  16:53:28
+
+lcd - _inst  -  21/07/23  -  16:53:28
+
+lcd - _byte  -  21/07/23  -  16:53:28
+
+inicializacion  -  21/07/23  -  16:53:28
+
+inicializacion  -  21/07/23  -  16:53:28
+
+NetworkConfig  -  21/07/23  -  16:53:28
+
+escribeParametros  -  21/07/23  -  16:53:28
+
+append_multiple_lines  -  21/07/23  -  16:53:28
+
+append_multiple_lines  -  21/07/23  -  16:53:28
+
+append_multiple_lines  -  21/07/23  -  16:53:28
+
+append_multiple_lines  -  21/07/23  -  16:53:29
+
+append_multiple_lines  -  21/07/23  -  16:53:29
+
+append_multiple_lines  -  21/07/23  -  16:53:29
+
+append_multiple_lines  -  21/07/23  -  16:53:29
+
+GSM_Modem_Init  -  21/07/23  -  16:53:32
+
+inicializacion  -  21/07/23  -  16:53:32
+
+inicializacion  -  21/07/23  -  16:53:32
+
+startThreadSerial1  -  21/07/23  -  16:53:32
+
+checkLedsBuzzer  -  21/07/23  -  16:53:32
+
+inicializacion tcp  -  21/07/23  -  16:53:34
+
+inicializacion  -  21/07/23  -  16:53:34
+
+threadCount  -  21/07/23  -  16:53:39
+
+threadCount  -  21/07/23  -  16:53:43
+
+threadCount  -  21/07/23  -  16:53:45
+
+threadCount  -  21/07/23  -  16:53:46
+
+threadCount  -  21/07/23  -  16:53:47
+
+threadCount  -  21/07/23  -  16:53:49
+
+inicializacionHBL  -  21/07/23  -  16:56:04
+
+measure_temp  -  21/07/23  -  16:56:04
+
+get_throttled  -  21/07/23  -  16:56:04
+
+lecturaParametrosHBL  -  21/07/23  -  16:56:04
+
+sincronizarHora  -  21/07/23  -  16:56:04
+
+append_multiple_lines  -  21/07/23  -  16:56:04
+
+Salidas - __init__  -  21/07/23  -  16:56:05
+
+lcd - __init__  -  21/07/23  -  16:56:05
+
+lcd - _init  -  21/07/23  -  16:56:05
+
+lcd - _inst  -  21/07/23  -  16:56:05
+
+lcd - _byte  -  21/07/23  -  16:56:05
+
+inicializacion  -  21/07/23  -  16:56:05
+
+inicializacion  -  21/07/23  -  16:56:05
+
+NetworkConfig  -  21/07/23  -  16:56:05
+
+escribeParametros  -  21/07/23  -  16:56:05
+
+append_multiple_lines  -  21/07/23  -  16:56:05
+
+append_multiple_lines  -  21/07/23  -  16:56:05
+
+append_multiple_lines  -  21/07/23  -  16:56:05
+
+append_multiple_lines  -  21/07/23  -  16:56:06
+
+append_multiple_lines  -  21/07/23  -  16:56:06
+
+append_multiple_lines  -  21/07/23  -  16:56:06
+
+append_multiple_lines  -  21/07/23  -  16:56:06
+
+GSM_Modem_Init  -  21/07/23  -  16:56:08
+
+inicializacion  -  21/07/23  -  16:56:08
+
+inicializacion  -  21/07/23  -  16:56:08
+
+checkLedsBuzzer  -  21/07/23  -  16:56:08
+
+inicializacion tcp  -  21/07/23  -  16:56:11
+
+inicializacion  -  21/07/23  -  16:56:11
+
+threadCount  -  21/07/23  -  16:56:16
+
+threadCount  -  21/07/23  -  16:56:16
+
+threadCount  -  21/07/23  -  16:56:21
+
+threadCount  -  21/07/23  -  16:56:21
+
+threadCount  -  21/07/23  -  16:56:24
+
+threadCount  -  21/07/23  -  16:56:24
+
+inicializacionHBL  -  21/07/23  -  16:57:55
+
+measure_temp  -  21/07/23  -  16:57:55
+
+get_throttled  -  21/07/23  -  16:57:55
+
+lecturaParametrosHBL  -  21/07/23  -  16:57:55
+
+sincronizarHora  -  21/07/23  -  16:57:55
+
+append_multiple_lines  -  21/07/23  -  16:57:55
+
+Salidas - __init__  -  21/07/23  -  16:57:56
+
+lcd - __init__  -  21/07/23  -  16:57:56
+
+lcd - _init  -  21/07/23  -  16:57:56
+
+lcd - _inst  -  21/07/23  -  16:57:56
+
+lcd - _byte  -  21/07/23  -  16:57:56
+
+inicializacion  -  21/07/23  -  16:57:56
+
+inicializacion  -  21/07/23  -  16:57:56
+
+NetworkConfig  -  21/07/23  -  16:57:56
+
+escribeParametros  -  21/07/23  -  16:57:56
+
+append_multiple_lines  -  21/07/23  -  16:57:56
+
+append_multiple_lines  -  21/07/23  -  16:57:56
+
+append_multiple_lines  -  21/07/23  -  16:57:56
+
+append_multiple_lines  -  21/07/23  -  16:57:57
+
+append_multiple_lines  -  21/07/23  -  16:57:57
+
+append_multiple_lines  -  21/07/23  -  16:57:57
+
+append_multiple_lines  -  21/07/23  -  16:57:57
+
+GSM_Modem_Init  -  21/07/23  -  16:57:59
+
+inicializacion  -  21/07/23  -  16:57:59
+
+inicializacion  -  21/07/23  -  16:57:59
+
+checkLedsBuzzer  -  21/07/23  -  16:57:59
+
+inicializacion tcp  -  21/07/23  -  16:58:01
+
+inicializacion  -  21/07/23  -  16:58:01
+
+threadCount  -  21/07/23  -  16:58:12
+
+threadCount  -  21/07/23  -  16:58:12
+
+threadCount  -  21/07/23  -  16:58:12
+
+threadCount  -  21/07/23  -  16:58:35
+
+threadCount  -  21/07/23  -  16:58:35
+
+threadCount  -  21/07/23  -  16:58:35
+
+threadCount  -  21/07/23  -  16:58:41
+
+threadCount  -  21/07/23  -  16:58:41
+
+threadCount  -  21/07/23  -  16:58:41
+
+threadCount  -  21/07/23  -  16:58:53
+
+threadCount  -  21/07/23  -  16:58:53
+
+threadCount  -  21/07/23  -  16:58:53
+
+inicializacionHBL  -  21/07/23  -  16:59:19
+
+measure_temp  -  21/07/23  -  16:59:19
+
+get_throttled  -  21/07/23  -  16:59:19
+
+lecturaParametrosHBL  -  21/07/23  -  16:59:19
+
+sincronizarHora  -  21/07/23  -  16:59:19
+
+append_multiple_lines  -  21/07/23  -  16:59:19
+
+Salidas - __init__  -  21/07/23  -  16:59:20
+
+lcd - __init__  -  21/07/23  -  16:59:20
+
+lcd - _init  -  21/07/23  -  16:59:20
+
+lcd - _inst  -  21/07/23  -  16:59:20
+
+lcd - _byte  -  21/07/23  -  16:59:20
+
+inicializacion  -  21/07/23  -  16:59:20
+
+inicializacion  -  21/07/23  -  16:59:20
+
+NetworkConfig  -  21/07/23  -  16:59:20
+
+escribeParametros  -  21/07/23  -  16:59:20
+
+append_multiple_lines  -  21/07/23  -  16:59:20
+
+append_multiple_lines  -  21/07/23  -  16:59:20
+
+append_multiple_lines  -  21/07/23  -  16:59:20
+
+append_multiple_lines  -  21/07/23  -  16:59:21
+
+append_multiple_lines  -  21/07/23  -  16:59:21
+
+append_multiple_lines  -  21/07/23  -  16:59:21
+
+append_multiple_lines  -  21/07/23  -  16:59:21
+
+GSM_Modem_Init  -  21/07/23  -  16:59:23
+
+inicializacion  -  21/07/23  -  16:59:23
+
+inicializacion  -  21/07/23  -  16:59:23
+
+checkLedsBuzzer  -  21/07/23  -  16:59:23
+
+inicializacion tcp  -  21/07/23  -  16:59:26
+
+inicializacion  -  21/07/23  -  16:59:26
+
+threadCount  -  21/07/23  -  16:59:29
+
+threadCount  -  21/07/23  -  16:59:29
+
+threadCount  -  21/07/23  -  16:59:29
+
+threadCount  -  21/07/23  -  16:59:29
+
+threadCount  -  21/07/23  -  17:00:08
+
+threadCount  -  21/07/23  -  17:00:08
+
+threadCount  -  21/07/23  -  17:00:08
+
+threadCount  -  21/07/23  -  17:00:08
+
+threadCount  -  21/07/23  -  17:00:13
+
+threadCount  -  21/07/23  -  17:00:13
+
+threadCount  -  21/07/23  -  17:00:13
+
+threadCount  -  21/07/23  -  17:00:13
+
+threadCount  -  21/07/23  -  17:00:15
+
+threadCount  -  21/07/23  -  17:00:15
+
+threadCount  -  21/07/23  -  17:00:15
+
+threadCount  -  21/07/23  -  17:00:15
+
+threadCount  -  21/07/23  -  17:00:16
+
+threadCount  -  21/07/23  -  17:00:16
+
+threadCount  -  21/07/23  -  17:00:16
+
+threadCount  -  21/07/23  -  17:00:16
+
+threadCount  -  21/07/23  -  17:00:16
+
+threadCount  -  21/07/23  -  17:00:16
+
+threadCount  -  21/07/23  -  17:00:16
+
+threadCount  -  21/07/23  -  17:00:16
+
+threadCount  -  21/07/23  -  17:00:16
+
+threadCount  -  21/07/23  -  17:00:16
+
+threadCount  -  21/07/23  -  17:00:16
+
+threadCount  -  21/07/23  -  17:00:16
+
+threadCount  -  21/07/23  -  17:00:17
+
+threadCount  -  21/07/23  -  17:00:17
+
+threadCount  -  21/07/23  -  17:00:17
+
+threadCount  -  21/07/23  -  17:00:17
+
+threadCount  -  21/07/23  -  17:00:17
+
+threadCount  -  21/07/23  -  17:00:17
+
+threadCount  -  21/07/23  -  17:00:17
+
+threadCount  -  21/07/23  -  17:00:17
+
+threadCount  -  21/07/23  -  17:00:18
+
+threadCount  -  21/07/23  -  17:00:18
+
+threadCount  -  21/07/23  -  17:00:18
+
+threadCount  -  21/07/23  -  17:00:18
+
+threadCount  -  21/07/23  -  17:00:18
+
+threadCount  -  21/07/23  -  17:00:18
+
+threadCount  -  21/07/23  -  17:00:18
+
+threadCount  -  21/07/23  -  17:00:18
+
+threadCount  -  21/07/23  -  17:00:19
+
+threadCount  -  21/07/23  -  17:00:19
+
+threadCount  -  21/07/23  -  17:00:19
+
+threadCount  -  21/07/23  -  17:00:19
+
+threadCount  -  21/07/23  -  17:00:19
+
+threadCount  -  21/07/23  -  17:00:19
+
+threadCount  -  21/07/23  -  17:00:19
+
+threadCount  -  21/07/23  -  17:00:19
+
+threadCount  -  21/07/23  -  17:00:19
+
+threadCount  -  21/07/23  -  17:00:19
+
+threadCount  -  21/07/23  -  17:00:19
+
+threadCount  -  21/07/23  -  17:00:19
+
+threadCount  -  21/07/23  -  17:00:50
+
+threadCount  -  21/07/23  -  17:00:50
+
+threadCount  -  21/07/23  -  17:00:50
+
+threadCount  -  21/07/23  -  17:00:50
+
+threadCount  -  21/07/23  -  17:00:54
+
+threadCount  -  21/07/23  -  17:00:54
+
+threadCount  -  21/07/23  -  17:00:54
+
+threadCount  -  21/07/23  -  17:00:54
+
+threadCount  -  21/07/23  -  17:00:55
+
+threadCount  -  21/07/23  -  17:00:55
+
+threadCount  -  21/07/23  -  17:00:55
+
+threadCount  -  21/07/23  -  17:00:55
+
+threadCount  -  21/07/23  -  17:00:56
+
+threadCount  -  21/07/23  -  17:00:56
+
+threadCount  -  21/07/23  -  17:00:56
+
+threadCount  -  21/07/23  -  17:00:56
+
+threadCount  -  21/07/23  -  17:00:56
+
+threadCount  -  21/07/23  -  17:00:56
+
+threadCount  -  21/07/23  -  17:00:56
+
+threadCount  -  21/07/23  -  17:00:56
+
+threadCount  -  21/07/23  -  17:01:31
+
+threadCount  -  21/07/23  -  17:01:31
+
+threadCount  -  21/07/23  -  17:01:31
+
+threadCount  -  21/07/23  -  17:01:31
+
+threadCount  -  21/07/23  -  17:01:33
+
+threadCount  -  21/07/23  -  17:01:33
+
+threadCount  -  21/07/23  -  17:01:33
+
+threadCount  -  21/07/23  -  17:01:33
+
+threadCount  -  21/07/23  -  17:01:34
+
+threadCount  -  21/07/23  -  17:01:34
+
+threadCount  -  21/07/23  -  17:01:34
+
+threadCount  -  21/07/23  -  17:01:34
+
+threadCount  -  21/07/23  -  17:01:35
+
+threadCount  -  21/07/23  -  17:01:35
+
+threadCount  -  21/07/23  -  17:01:35
+
+threadCount  -  21/07/23  -  17:01:35
+
+threadCount  -  21/07/23  -  17:01:36
+
+threadCount  -  21/07/23  -  17:01:36
+
+threadCount  -  21/07/23  -  17:01:36
+
+threadCount  -  21/07/23  -  17:01:36
+
+threadCount  -  21/07/23  -  17:01:37
+
+threadCount  -  21/07/23  -  17:01:37
+
+threadCount  -  21/07/23  -  17:01:37
+
+threadCount  -  21/07/23  -  17:01:37
+
+threadCount  -  21/07/23  -  17:01:45
+
+threadCount  -  21/07/23  -  17:01:45
+
+threadCount  -  21/07/23  -  17:01:45
+
+inicializacionHBL  -  21/07/23  -  17:05:31
+
+measure_temp  -  21/07/23  -  17:05:31
+
+get_throttled  -  21/07/23  -  17:05:31
+
+lecturaParametrosHBL  -  21/07/23  -  17:05:31
+
+sincronizarHora  -  21/07/23  -  17:05:31
+
+append_multiple_lines  -  21/07/23  -  17:05:31
+
+Salidas - __init__  -  21/07/23  -  17:05:32
+
+inicializacion  -  21/07/23  -  17:05:32
+
+inicializacion  -  21/07/23  -  17:05:32
+
+NetworkConfig  -  21/07/23  -  17:05:32
+
+escribeParametros  -  21/07/23  -  17:05:32
+
+append_multiple_lines  -  21/07/23  -  17:05:32
+
+append_multiple_lines  -  21/07/23  -  17:05:32
+
+append_multiple_lines  -  21/07/23  -  17:05:32
+
+append_multiple_lines  -  21/07/23  -  17:05:34
+
+append_multiple_lines  -  21/07/23  -  17:05:34
+
+append_multiple_lines  -  21/07/23  -  17:05:34
+
+append_multiple_lines  -  21/07/23  -  17:05:34
+
+GSM_Modem_Init  -  21/07/23  -  17:05:36
+
+inicializacion  -  21/07/23  -  17:05:36
+
+inicializacion  -  21/07/23  -  17:05:36
+
+checkLedsBuzzer  -  21/07/23  -  17:05:36
+
+inicializacion tcp  -  21/07/23  -  17:05:38
+
+inicializacion  -  21/07/23  -  17:05:38
+
+threadCount  -  21/07/23  -  17:05:48
+
+threadCount  -  21/07/23  -  17:05:50
+
+threadCount  -  21/07/23  -  17:05:52
+
+threadCount  -  21/07/23  -  17:05:57
+
+threadCount  -  21/07/23  -  17:06:03
+
+threadCount  -  21/07/23  -  17:06:04
+
+threadCount  -  21/07/23  -  17:08:40
+
+threadCount  -  21/07/23  -  17:08:49
+
+threadCount  -  21/07/23  -  17:08:52
+
+threadCount  -  21/07/23  -  17:09:04
+
+inicializacionHBL  -  21/07/23  -  17:09:19
+
+measure_temp  -  21/07/23  -  17:09:19
+
+get_throttled  -  21/07/23  -  17:09:19
+
+lecturaParametrosHBL  -  21/07/23  -  17:09:19
+
+sincronizarHora  -  21/07/23  -  17:09:19
+
+append_multiple_lines  -  21/07/23  -  17:09:19
+
+Salidas - __init__  -  21/07/23  -  17:09:20
+
+inicializacion  -  21/07/23  -  17:09:20
+
+inicializacion  -  21/07/23  -  17:09:20
+
+NetworkConfig  -  21/07/23  -  17:09:20
+
+escribeParametros  -  21/07/23  -  17:09:20
+
+append_multiple_lines  -  21/07/23  -  17:09:20
+
+append_multiple_lines  -  21/07/23  -  17:09:20
+
+append_multiple_lines  -  21/07/23  -  17:09:20
+
+append_multiple_lines  -  21/07/23  -  17:09:21
+
+append_multiple_lines  -  21/07/23  -  17:09:21
+
+append_multiple_lines  -  21/07/23  -  17:09:21
+
+append_multiple_lines  -  21/07/23  -  17:09:21
+
+GSM_Modem_Init  -  21/07/23  -  17:09:23
+
+inicializacion  -  21/07/23  -  17:09:23
+
+inicializacion  -  21/07/23  -  17:09:23
+
+checkLedsBuzzer  -  21/07/23  -  17:09:23
+
+inicializacion tcp  -  21/07/23  -  17:09:25
+
+inicializacion  -  21/07/23  -  17:09:25
+
+threadCount  -  21/07/23  -  17:09:32
+
+threadCount  -  21/07/23  -  17:09:32
+
+threadCount  -  21/07/23  -  17:09:38
+
+threadCount  -  21/07/23  -  17:09:38
+
+threadCount  -  21/07/23  -  17:09:39
+
+threadCount  -  21/07/23  -  17:09:39
+
+threadCount  -  21/07/23  -  17:10:05
+
+threadCount  -  21/07/23  -  17:10:05
+
+threadCount  -  21/07/23  -  17:10:06
+
+threadCount  -  21/07/23  -  17:10:06
+
+inicializacionHBL  -  21/07/23  -  17:14:41
+
+measure_temp  -  21/07/23  -  17:14:41
+
+get_throttled  -  21/07/23  -  17:14:41
+
+lecturaParametrosHBL  -  21/07/23  -  17:14:41
+
+sincronizarHora  -  21/07/23  -  17:14:41
+
+append_multiple_lines  -  21/07/23  -  17:14:41
+
+Salidas - __init__  -  21/07/23  -  17:14:42
+
+inicializacion  -  21/07/23  -  17:14:42
+
+inicializacion  -  21/07/23  -  17:14:42
+
+NetworkConfig  -  21/07/23  -  17:14:42
+
+escribeParametros  -  21/07/23  -  17:14:42
+
+append_multiple_lines  -  21/07/23  -  17:14:42
+
+append_multiple_lines  -  21/07/23  -  17:14:42
+
+append_multiple_lines  -  21/07/23  -  17:14:42
+
+append_multiple_lines  -  21/07/23  -  17:14:43
+
+append_multiple_lines  -  21/07/23  -  17:14:43
+
+append_multiple_lines  -  21/07/23  -  17:14:43
+
+append_multiple_lines  -  21/07/23  -  17:14:43
+
+GSM_Modem_Init  -  21/07/23  -  17:14:45
+
+inicializacion  -  21/07/23  -  17:14:45
+
+inicializacion  -  21/07/23  -  17:14:45
+
+checkLedsBuzzer  -  21/07/23  -  17:14:45
+
+inicializacion tcp  -  21/07/23  -  17:14:47
+
+inicializacion  -  21/07/23  -  17:14:47
+
+threadCount  -  21/07/23  -  17:14:53
+
+threadCount  -  21/07/23  -  17:14:53
+
+threadCount  -  21/07/23  -  17:14:53
+
+threadCount  -  21/07/23  -  17:14:58
+
+threadCount  -  21/07/23  -  17:14:58
+
+threadCount  -  21/07/23  -  17:14:58
+
+threadCount  -  21/07/23  -  17:14:59
+
+threadCount  -  21/07/23  -  17:14:59
+
+threadCount  -  21/07/23  -  17:14:59
+
+threadCount  -  21/07/23  -  17:15:00
+
+threadCount  -  21/07/23  -  17:15:00
+
+threadCount  -  21/07/23  -  17:15:00
+
+inicializacionHBL  -  21/07/23  -  17:15:05
+
+measure_temp  -  21/07/23  -  17:15:05
+
+get_throttled  -  21/07/23  -  17:15:05
+
+lecturaParametrosHBL  -  21/07/23  -  17:15:05
+
+sincronizarHora  -  21/07/23  -  17:15:05
+
+append_multiple_lines  -  21/07/23  -  17:15:05
+
+Salidas - __init__  -  21/07/23  -  17:15:06
+
+inicializacion  -  21/07/23  -  17:15:06
+
+inicializacion  -  21/07/23  -  17:15:06
+
+NetworkConfig  -  21/07/23  -  17:15:06
+
+escribeParametros  -  21/07/23  -  17:15:06
+
+append_multiple_lines  -  21/07/23  -  17:15:06
+
+append_multiple_lines  -  21/07/23  -  17:15:06
+
+append_multiple_lines  -  21/07/23  -  17:15:06
+
+append_multiple_lines  -  21/07/23  -  17:15:07
+
+append_multiple_lines  -  21/07/23  -  17:15:07
+
+append_multiple_lines  -  21/07/23  -  17:15:07
+
+append_multiple_lines  -  21/07/23  -  17:15:07
+
+GSM_Modem_Init  -  21/07/23  -  17:15:09
+
+inicializacion  -  21/07/23  -  17:15:09
+
+inicializacion  -  21/07/23  -  17:15:09
+
+checkLedsBuzzer  -  21/07/23  -  17:15:09
+
+inicializacion tcp  -  21/07/23  -  17:15:11
+
+inicializacion  -  21/07/23  -  17:15:11
+
+threadCount  -  21/07/23  -  17:15:18
+
+threadCount  -  21/07/23  -  17:15:18
+
+threadCount  -  21/07/23  -  17:15:18
+
+threadCount  -  21/07/23  -  17:15:18
+
+inicializacionHBL  -  21/07/23  -  17:16:19
+
+measure_temp  -  21/07/23  -  17:16:19
+
+get_throttled  -  21/07/23  -  17:16:19
+
+lecturaParametrosHBL  -  21/07/23  -  17:16:19
+
+sincronizarHora  -  21/07/23  -  17:16:19
+
+append_multiple_lines  -  21/07/23  -  17:16:19
+
+Salidas - __init__  -  21/07/23  -  17:16:19
+
+inicializacion  -  21/07/23  -  17:16:19
+
+inicializacion  -  21/07/23  -  17:16:19
+
+NetworkConfig  -  21/07/23  -  17:16:19
+
+escribeParametros  -  21/07/23  -  17:16:19
+
+append_multiple_lines  -  21/07/23  -  17:16:19
+
+append_multiple_lines  -  21/07/23  -  17:16:19
+
+append_multiple_lines  -  21/07/23  -  17:16:19
+
+append_multiple_lines  -  21/07/23  -  17:16:20
+
+append_multiple_lines  -  21/07/23  -  17:16:20
+
+append_multiple_lines  -  21/07/23  -  17:16:20
+
+append_multiple_lines  -  21/07/23  -  17:16:20
+
+GSM_Modem_Init  -  21/07/23  -  17:16:23
+
+inicializacion  -  21/07/23  -  17:16:23
+
+inicializacion  -  21/07/23  -  17:16:23
+
+checkLedsBuzzer  -  21/07/23  -  17:16:23
+
+inicializacion tcp  -  21/07/23  -  17:16:25
+
+inicializacion  -  21/07/23  -  17:16:25
+
+threadCount  -  21/07/23  -  17:16:26
+
+threadCount  -  21/07/23  -  17:16:26
+
+threadCount  -  21/07/23  -  17:16:26
+
+threadCount  -  21/07/23  -  17:16:26
+
+threadCount  -  21/07/23  -  17:16:26
+
+threadCount  -  21/07/23  -  17:16:41
+
+threadCount  -  21/07/23  -  17:16:41
+
+threadCount  -  21/07/23  -  17:16:41
+
+threadCount  -  21/07/23  -  17:16:41
+
+threadCount  -  21/07/23  -  17:16:41
+
+threadCount  -  21/07/23  -  17:16:43
+
+threadCount  -  21/07/23  -  17:16:43
+
+threadCount  -  21/07/23  -  17:16:43
+
+threadCount  -  21/07/23  -  17:16:43
+
+threadCount  -  21/07/23  -  17:16:43
+
+inicializacionHBL  -  21/07/23  -  17:17:12
+
+measure_temp  -  21/07/23  -  17:17:12
+
+get_throttled  -  21/07/23  -  17:17:12
+
+lecturaParametrosHBL  -  21/07/23  -  17:17:12
+
+sincronizarHora  -  21/07/23  -  17:17:12
+
+append_multiple_lines  -  21/07/23  -  17:17:12
+
+Salidas - __init__  -  21/07/23  -  17:17:13
+
+inicializacion  -  21/07/23  -  17:17:13
+
+inicializacion  -  21/07/23  -  17:17:13
+
+NetworkConfig  -  21/07/23  -  17:17:13
+
+escribeParametros  -  21/07/23  -  17:17:13
+
+append_multiple_lines  -  21/07/23  -  17:17:13
+
+append_multiple_lines  -  21/07/23  -  17:17:13
+
+append_multiple_lines  -  21/07/23  -  17:17:13
+
+append_multiple_lines  -  21/07/23  -  17:17:14
+
+append_multiple_lines  -  21/07/23  -  17:17:14
+
+append_multiple_lines  -  21/07/23  -  17:17:14
+
+append_multiple_lines  -  21/07/23  -  17:17:14
+
+GSM_Modem_Init  -  21/07/23  -  17:17:16
+
+inicializacion  -  21/07/23  -  17:17:16
+
+inicializacion  -  21/07/23  -  17:17:16
+
+checkLedsBuzzer  -  21/07/23  -  17:17:16
+
+inicializacion tcp  -  21/07/23  -  17:17:18
+
+inicializacion  -  21/07/23  -  17:17:18
+
+threadCount  -  21/07/23  -  17:17:20
+
+threadCount  -  21/07/23  -  17:17:20
+
+threadCount  -  21/07/23  -  17:17:20
+
+threadCount  -  21/07/23  -  17:17:20
+
+threadCount  -  21/07/23  -  17:17:20
+
+threadCount  -  21/07/23  -  17:17:20
+
+threadCount  -  21/07/23  -  17:18:22
+
+threadCount  -  21/07/23  -  17:18:22
+
+threadCount  -  21/07/23  -  17:18:22
+
+threadCount  -  21/07/23  -  17:18:22
+
+threadCount  -  21/07/23  -  17:18:22
+
+threadCount  -  21/07/23  -  17:18:22
+
+inicializacionHBL  -  21/07/23  -  17:19:35
+
+measure_temp  -  21/07/23  -  17:19:35
+
+get_throttled  -  21/07/23  -  17:19:35
+
+lecturaParametrosHBL  -  21/07/23  -  17:19:35
+
+sincronizarHora  -  21/07/23  -  17:19:35
+
+append_multiple_lines  -  21/07/23  -  17:19:35
+
+Salidas - __init__  -  21/07/23  -  17:19:36
+
+inicializacion  -  21/07/23  -  17:19:36
+
+inicializacion  -  21/07/23  -  17:19:36
+
+NetworkConfig  -  21/07/23  -  17:19:36
+
+escribeParametros  -  21/07/23  -  17:19:36
+
+append_multiple_lines  -  21/07/23  -  17:19:36
+
+append_multiple_lines  -  21/07/23  -  17:19:36
+
+append_multiple_lines  -  21/07/23  -  17:19:36
+
+append_multiple_lines  -  21/07/23  -  17:19:37
+
+append_multiple_lines  -  21/07/23  -  17:19:37
+
+append_multiple_lines  -  21/07/23  -  17:19:37
+
+append_multiple_lines  -  21/07/23  -  17:19:37
+
+GSM_Modem_Init  -  21/07/23  -  17:19:39
+
+inicializacion  -  21/07/23  -  17:19:39
+
+inicializacion  -  21/07/23  -  17:19:39
+
+checkLedsBuzzer  -  21/07/23  -  17:19:39
+
+inicializacion tcp  -  21/07/23  -  17:19:41
+
+inicializacion  -  21/07/23  -  17:19:41
+
+threadCount  -  21/07/23  -  17:19:43
+
+threadCount  -  21/07/23  -  17:19:43
+
+threadCount  -  21/07/23  -  17:19:43
+
+threadCount  -  21/07/23  -  17:19:43
+
+threadCount  -  21/07/23  -  17:19:43
+
+threadCount  -  21/07/23  -  17:19:43
+
+threadCount  -  21/07/23  -  17:19:43
+
+threadCount  -  21/07/23  -  17:19:45
+
+threadCount  -  21/07/23  -  17:19:45
+
+threadCount  -  21/07/23  -  17:19:45
+
+threadCount  -  21/07/23  -  17:19:45
+
+threadCount  -  21/07/23  -  17:19:45
+
+threadCount  -  21/07/23  -  17:19:45
+
+threadCount  -  21/07/23  -  17:19:45
+
+threadCount  -  21/07/23  -  17:19:51
+
+threadCount  -  21/07/23  -  17:19:51
+
+threadCount  -  21/07/23  -  17:19:51
+
+threadCount  -  21/07/23  -  17:19:51
+
+threadCount  -  21/07/23  -  17:19:51
+
+inicializacionHBL  -  21/07/23  -  17:22:50
+
+measure_temp  -  21/07/23  -  17:22:50
+
+get_throttled  -  21/07/23  -  17:22:50
+
+lecturaParametrosHBL  -  21/07/23  -  17:22:50
+
+sincronizarHora  -  21/07/23  -  17:22:50
+
+append_multiple_lines  -  21/07/23  -  17:22:50
+
+Salidas - __init__  -  21/07/23  -  17:22:51
+
+inicializacion  -  21/07/23  -  17:22:51
+
+inicializacion  -  21/07/23  -  17:22:51
+
+NetworkConfig  -  21/07/23  -  17:22:51
+
+escribeParametros  -  21/07/23  -  17:22:51
+
+append_multiple_lines  -  21/07/23  -  17:22:51
+
+append_multiple_lines  -  21/07/23  -  17:22:51
+
+append_multiple_lines  -  21/07/23  -  17:22:51
+
+append_multiple_lines  -  21/07/23  -  17:22:52
+
+append_multiple_lines  -  21/07/23  -  17:22:52
+
+append_multiple_lines  -  21/07/23  -  17:22:52
+
+append_multiple_lines  -  21/07/23  -  17:22:52
+
+GSM_Modem_Init  -  21/07/23  -  17:22:54
+
+inicializacion  -  21/07/23  -  17:22:54
+
+inicializacion  -  21/07/23  -  17:22:54
+
+checkLedsBuzzer  -  21/07/23  -  17:22:54
+
+inicializacion tcp  -  21/07/23  -  17:22:57
+
+inicializacion  -  21/07/23  -  17:22:57
+
+threadCount  -  21/07/23  -  17:23:01
+
+inicializacionHBL  -  21/07/23  -  17:23:15
+
+measure_temp  -  21/07/23  -  17:23:15
+
+get_throttled  -  21/07/23  -  17:23:15
+
+lecturaParametrosHBL  -  21/07/23  -  17:23:15
+
+sincronizarHora  -  21/07/23  -  17:23:15
+
+append_multiple_lines  -  21/07/23  -  17:23:15
+
+Salidas - __init__  -  21/07/23  -  17:23:16
+
+inicializacion  -  21/07/23  -  17:23:16
+
+inicializacion  -  21/07/23  -  17:23:16
+
+NetworkConfig  -  21/07/23  -  17:23:16
+
+escribeParametros  -  21/07/23  -  17:23:16
+
+append_multiple_lines  -  21/07/23  -  17:23:16
+
+append_multiple_lines  -  21/07/23  -  17:23:16
+
+append_multiple_lines  -  21/07/23  -  17:23:16
+
+append_multiple_lines  -  21/07/23  -  17:23:17
+
+append_multiple_lines  -  21/07/23  -  17:23:17
+
+append_multiple_lines  -  21/07/23  -  17:23:17
+
+append_multiple_lines  -  21/07/23  -  17:23:17
+
+GSM_Modem_Init  -  21/07/23  -  17:23:19
+
+inicializacion  -  21/07/23  -  17:23:19
+
+inicializacion  -  21/07/23  -  17:23:19
+
+checkLedsBuzzer  -  21/07/23  -  17:23:19
+
+inicializacion tcp  -  21/07/23  -  17:23:21
+
+inicializacion  -  21/07/23  -  17:23:21
+
+threadCount  -  21/07/23  -  17:23:43
+

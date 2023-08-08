@@ -1,0 +1,1 @@
+jq . /usr/programas/hbl/modulos/hbl.json
