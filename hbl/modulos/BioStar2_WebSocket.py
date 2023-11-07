@@ -61,7 +61,7 @@ class BioStar2_WebSocket(object):
                                                 on_message=self.on_message,
                                                 on_error=self.on_error,
                                                 on_close=self.on_close)
-            
+            websocket.setdefaulttimeout(5)
             self.t = Thread( target=self.__run, daemon=False,name ="hblBiostarWeb")
             self.t.start()
         except Exception as e:
@@ -156,9 +156,15 @@ class BioStar2_WebSocket(object):
         ##f str(error) == "ping/pong timed out" or str(error) == "[Errno 113] No route to host":
         #time.sleep(2)
         if str(error) != "'Event'":
+            if str(error) == 'timed out':
+                error = "el servidor no respondio a la hora de intentar conectarse"
             log.escribeSeparador(hbl.LOGS_hblBioStar2_WebSocket)
             log.escribeLineaLog(hbl.LOGS_hblBioStar2_WebSocket,"ERROR : " + str(error))
-        if str(error) == "ping/pong timed out" or str(error) == "[Errno 113] No route to host":
+        if (str(error) == "ping/pong timed out" 
+            or str(error) == "[Errno 113] No route to host" 
+            or str(error) == 'el servidor no respondio a la hora de intentar conectarse'
+            or str(error) == '[Errno 104] Connection reset by peer'
+            or str(error) == '[Errno 111] Connection refused'):
             self.ws.close()
             self.temporizadorSinEventos.stop()
             self.reconectarSiEsNecesario()

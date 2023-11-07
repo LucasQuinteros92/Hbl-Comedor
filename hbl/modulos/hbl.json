@@ -83,7 +83,7 @@
     },
     "request": {
         "activado": 0,
-        "seleccionURL": 1,
+        "seleccionURL": 2,
         "urlRequest1": "http://localhost/jphaccess/trp/alcoholemia.php?tarjeta=",
         "urlRequest2": "http://localhost/jphaccess/trp/validar.php?tarjeta=",
         "urlRequest3": "http://172.16.23.27/workpass/login.hk.php",
@@ -175,7 +175,7 @@
     },
     "wiegand": {
         "W1": {
-            "activado": 0,
+            "activado": 1,
             "modo": "IN",
             "esperaSenial": 0,
             "bitsSalida": 0,
@@ -269,7 +269,7 @@
         "hblTimer": "hblTimer.log",
         "hblPuerta": "hblPuerta.log",
         "hblBioStar2_WebSocket": "hblBioStar2_WebSocket.log",
-        "hblReqNoBlck": "hblReqNoBlck"
+        "hblReqNoBlck": "hblReqNoBlck.log"
     },
     "reporte": {
         "activado": 0,
@@ -358,20 +358,21 @@
     },
     "BioStar2_WebSocket": {
         "activado": 1,
-        "WebSocket_Host": "wss://192.168.0.114:443",
-        "Api_Host": "https://192.168.0.114",
+        "WebSocket_Host": "wss://172.30.2.111:443",
+        "Api_Host": "https://172.30.2.111",
         "Tipo_Evento": [
             "VERIFY_SUCCESS_CARD",
             "IDENTIFY_SUCCESS_FINGERPRINT"
         ],
         "Device_ID1": "539325963",
-        "Device_ID2": "538849673",
+        "Device_ID2": "538854750",
         "Device_ID3": "",
         "Device_ID4": "",
         "BioStar2_User": "admin",
         "BioStar2_Password": "Jphlions135",
         "Reconectar": true,
         "TiempoEntreReconexiones": 10,
-        "TiempoPermitidoSinEventos": 0
-    }
+        "TiempoPermitidoSinEventos": 60
+    },
+    "version": 1.3
 }
