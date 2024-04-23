@@ -202,6 +202,8 @@ def cargarParametros(archivo):
 
     global IDHBL
 
+    global HBLCORE_NTP 
+
     global DISPLAY_activado
     global DISPLAY_line0
     global DISPLAY_line1
@@ -315,7 +317,9 @@ def cargarParametros(archivo):
     global BioStar2_WebSocket_BioStar2_Password
     global BioStar2_WebSocket_Reconectar                 
     global BioStar2_WebSocket_TiempoEntreReconexiones   
-    global BioStar2_WebSocket_TiempoPermitidoSinEventos 
+    global BioStar2_Websocket_SegundosKeepAliveHTTP
+    global BioStar2_Websocket_SegundosKeepAliveWS
+    global BioStar2_Websocket_RetrasoDeEventoPermitido 
 
     global Audio_activado
     global Audio_path_Pasa
@@ -601,6 +605,7 @@ def cargarParametros(archivo):
 
     IDHBL=data["IDHBL"] 
 
+    HBLCORE_NTP=data["hblCore"]["NTP"] 
 
     DISPLAY_activado  =  data["display"]["activado"]
     DISPLAY_line0     =  data["display"]["line0"]
@@ -722,7 +727,9 @@ def cargarParametros(archivo):
     BioStar2_WebSocket_BioStar2_Password          =data["BioStar2_WebSocket"]["BioStar2_Password"]
     BioStar2_WebSocket_Reconectar                 =data["BioStar2_WebSocket"]["Reconectar"]
     BioStar2_WebSocket_TiempoEntreReconexiones    =data["BioStar2_WebSocket"]["TiempoEntreReconexiones"]
-    BioStar2_WebSocket_TiempoPermitidoSinEventos  =data["BioStar2_WebSocket"]["TiempoPermitidoSinEventos"]
+    BioStar2_Websocket_SegundosKeepAliveHTTP      =data["BioStar2_WebSocket"]["SegundosKeepAliveHTTP"]
+    BioStar2_Websocket_SegundosKeepAliveWS        =data["BioStar2_WebSocket"]["SegundosKeepAliveWS"]
+    BioStar2_Websocket_RetrasoDeEventoPermitido   =data["BioStar2_WebSocket"]["RetrasoDeEventoPermitido"]
 
     #CONTADOR DE PERSONAS
     Contador_activado                = data["ContadorPersonas"]["activado"]

@@ -1,6 +1,7 @@
 from threading import Thread, Event
 from modulos import log
 from modulos import hbl
+from modulos import variablesGlobales as VG
 import time
 
 class temporizador(object):
@@ -14,6 +15,7 @@ class temporizador(object):
     def __init__(self, segundos = 10, callback = None, name = "",):
         super().__init__()
         self.segundos = segundos
+        self.detener = True
         self._running = False
         self.callback = callback
         self._stopEvent = Event()
@@ -22,7 +24,7 @@ class temporizador(object):
         self.Status = "EsperandoPuertaAbierta"
         self.t = Thread( target= self.__run, daemon=False, name=name)
         self.t.start()
-        self.detener = True
+        
 
     def start(self):
         
@@ -77,6 +79,10 @@ class temporizador(object):
     
 def rutina():
     print('imprimiendo desde rutina')       
+    
+def cbBorrarfichada():
+    VG.LastDNI = 99999999
+
     
 
 if __name__ == '__main__':

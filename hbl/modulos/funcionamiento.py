@@ -9,6 +9,7 @@ from modulos import cacheo as cacheo
 from modulos import PlantillasImpresora
 from modulos import Control_Personal as CP
 from modulos import requestnblck as rq
+
 import requests
 import pigpio 
 import random
@@ -25,6 +26,8 @@ flagLog = 0
 
 global flagTeclado
 flagTeclado = 0
+
+
 
 
 
@@ -49,6 +52,7 @@ def Tareas(RunTask):
         if VG.WD2_Data != "":
             VG.LastID = TareaLeerWD(VG.WD2_Data ,2)
             VG.WD2_Data = ""
+        VG.NumeroTarea = VG.NumeroTarea + 1
     if RunTask == "Request":
         TareaRequest()
     if RunTask == "Confirmacion Reloj":
@@ -127,22 +131,28 @@ def TareaLeerWebSock():
 def TareaReqNoBloqSegunSeleccion():
 
     if VG.LastID != "" and 1000 < int(VG.LastID) < 100000000:
-        
-        id = VG.LastID
-        
-        VG.urlseleccion = 2    
-        rq.requestnblck(id,hbl.REQ_seleccionURL).start()
-        VG.urlseleccion = None
-        VG.LastID = ""
+        if VG.LastID != VG.LastDNI:
+            id = VG.LastID
+            VG.LastDNI =id
+            VG.timerBorrarFichada.start()
+            VG.urlseleccion = 2    
+            rq.requestnblck(id,hbl.REQ_seleccionURL).start()
+            VG.urlseleccion = None
+            VG.LastID = ""
+        else:
+            VG.LastID = ""
         
     if VG.LastIDWebsocket != "" and 1000 < int(VG.LastIDWebsocket) < 100000000:
-        
-        id = VG.LastIDWebsocket
-        
-        VG.urlseleccion = 2    
-        rq.requestnblck(id,hbl.REQ_seleccionURL).start()
-        VG.urlseleccion = None
-        VG.LastIDWebsocket = ""
+        if int(VG.LastIDWebsocket) != VG.LastDNI:
+            id = VG.LastIDWebsocket
+            VG.LastDNI = int(id)
+            VG.timerBorrarFichada.start()
+            VG.urlseleccion = 2    
+            rq.requestnblck(id,hbl.REQ_seleccionURL).start()
+            VG.urlseleccion = None
+            VG.LastIDWebsocket = ""
+        else:
+            VG.LastIDWebsocket = ""
          
     VG.NumeroTarea = VG.NumeroTarea + 1
 
@@ -262,7 +272,7 @@ def TareaLeerWD(id,WD_number):
     log.escribeLineaLog(hbl.LOGS_hblTareas, "Tarea : Leer Wiegand") 
 
     log.escribeLineaLog(hbl.LOGS_hblTareas, "ID WD" + str(WD_number) + " = " + str(id)) 
-    VG.NumeroTarea = VG.NumeroTarea + 1
+    
     return id
 
 

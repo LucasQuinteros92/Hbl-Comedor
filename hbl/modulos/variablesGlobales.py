@@ -327,3 +327,6 @@ LastID2 = ""
 LastID3 = ""
 LastID4 = ""
 
+
+timerBorrarFichada = ""
+

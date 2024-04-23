@@ -48,6 +48,7 @@ from modulos.encoderWiegand import Encoder
 from modulos.salidas import Salidas
 from modulos.entradas import Entradas 
 from modulos import variablesGlobales as variablesGlobales
+from modulos.timer import temporizador,cbBorrarfichada
 
 global pi
 global STOP
@@ -172,6 +173,7 @@ if __name__ == "__main__":
 
    b = datetime.datetime.now() 
 
+   variablesGlobales.timerBorrarFichada = temporizador(segundos= 15,callback=cbBorrarfichada,name = "tempBorrarFichada")
    print("Hbl listo")
    # heartbeat hblCore
    while STOP:
@@ -189,5 +191,6 @@ if __name__ == "__main__":
    websocket.stop()
    #w1.cancel()
    #w2.cancel()
+   variablesGlobales.timerBorrarFichada.close()
    pi.stop() 
    sys.exit()

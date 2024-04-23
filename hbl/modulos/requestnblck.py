@@ -42,7 +42,7 @@ class requestnblck(object):
     def __run(self):
         
         try:
-            time.sleep(random.randint(5,9))
+            #time.sleep(random.randint(5,9))
             req = requests.get(self.UrlCompletaReq, timeout=int(hbl.REQ_timeoutRequest))
             self.__Logreport("request exitoso:"+ str(self.UrlCompletaReq) +str(req) )
             

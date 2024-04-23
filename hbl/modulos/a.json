@@ -1,0 +1,35 @@
+{
+    "Event": {
+        "id": "0",
+        "event_type_id": {
+            "code": "4865",
+            "name": "IDENTIFY_SUCCESS_FINGERPRINT",
+            "description": "",
+            "enable_alert": "false",
+            "alertable": "false",
+            "alert_name": "",
+            "alert_message": ""
+        },
+        "index": "33075",
+        "datetime": "2024-01-23T18: 47: 49.00Z",
+        "server_datetime": "2024-01-23T15: 47: 48.00Z",
+        "device_id": {
+            "id": "538854750",
+            "name": "BioLite N2 538854750 (172.30.2.107)"
+        },
+        "user_id": {
+            "user_id": "36739686",
+            "name": "Lucas",
+            "photo_exists": "false"
+        },
+        "tna_key": "0",
+        "parameter": "-1",
+        "is_dst": "0",
+        "timezone": {
+            "half": "0",
+            "hour": "3",
+            "negative": "1"
+        },
+        "temperature": "0"
+    }
+}

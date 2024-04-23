@@ -18,7 +18,7 @@
     "cacheo": {
         "activado": 0,
         "cantidadCacheos": 10,
-        "cacheosPositivos": 2,
+        "cacheosPositivos": 1,
         "tiempoRelePositivo": 1,
         "repRelePositivo": 2,
         "tiempoReleNegativo": 1,
@@ -271,6 +271,9 @@
         "hblBioStar2_WebSocket": "hblBioStar2_WebSocket.log",
         "hblReqNoBlck": "hblReqNoBlck.log"
     },
+    "hblCore": {
+        "NTP": "time.google.com"
+    },
     "reporte": {
         "activado": 0,
         "idNitro4": 2112,
@@ -358,21 +361,23 @@
     },
     "BioStar2_WebSocket": {
         "activado": 1,
-        "WebSocket_Host": "wss://172.30.2.111:443",
-        "Api_Host": "https://172.30.2.111",
+        "WebSocket_Host": "wss://172.30.2.35",
+        "Api_Host": "https://172.30.2.35",
         "Tipo_Evento": [
             "VERIFY_SUCCESS_CARD",
             "IDENTIFY_SUCCESS_FINGERPRINT"
         ],
-        "Device_ID1": "539325963",
-        "Device_ID2": "538854750",
-        "Device_ID3": "",
+        "Device_ID1": "538854750",
+        "Device_ID2": "",
+        "Device_ID3": "539325963",
         "Device_ID4": "",
         "BioStar2_User": "admin",
         "BioStar2_Password": "Jphlions135",
         "Reconectar": true,
         "TiempoEntreReconexiones": 10,
-        "TiempoPermitidoSinEventos": 60
+        "SegundosKeepAliveHTTP": 0,
+        "SegundosKeepAliveWS": 1,
+        "RetrasoDeEventoPermitido": 1
     },
-    "version": 1.3
+    "version": 1.4
 }

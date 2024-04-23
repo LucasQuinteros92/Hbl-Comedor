@@ -210,7 +210,7 @@ def sincronizarHora():
     
     try:
         # escribe en el archivo de seleccion del servidor el indicado en el json del HBL
-        parametrosNet = ['# Server para sincronizacion del reloj', ' ' , '[Time]', 'NTP=' + variablesGlobales.NTP_URL, ' ']
+        parametrosNet = ['# Server para sincronizacion del reloj', ' ' , '[Time]', 'NTP=' + hbl.HBLCORE_NTP, ' ']
         auxiliar.append_multiple_lines('/etc/systemd/timesyncd.conf', parametrosNet, "w+") 
 
         # activa la sincronizacion con el servidor NTP y hace un reload del daemon

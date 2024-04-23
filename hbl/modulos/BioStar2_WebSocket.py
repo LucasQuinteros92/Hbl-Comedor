@@ -9,7 +9,7 @@ from modulos import hbl as hbl
 from modulos import log as log
 from modulos import variablesGlobales as vg
 from modulos.timer import temporizador 
-
+from datetime import datetime, timedelta
 """
     *Para usar la libreria de websocket, hay que instalar:
         pip install websocket-client
@@ -23,32 +23,106 @@ from modulos.timer import temporizador
         # IDENTIFY_SUCCESS_FINGERPRINT
         # VERIFY_SUCCESS_CARD
 """
-
+TCP_DISCONNECTED = "15360"
         
 class BioStar2_WebSocket(object):
     def __init__(self) :
+        self.sesionID = None
+        self.lastConection = None
         if hbl.BioStar2_WebSocket_activado:
             #websocket.enableTrace(True)
-            self.temporizadorSinEventos = temporizador(segundos=hbl.BioStar2_WebSocket_TiempoPermitidoSinEventos,
-                                                       name="tempSinEventosWebsocket",
-                                                       callback=self.cb)
+            
+            self.tempKeepAliveHTTP= temporizador(segundos=hbl.BioStar2_Websocket_SegundosKeepAliveHTTP,
+                                                       name="HTTPkeepAlive",
+                                                       callback=self.cbHTTP)
+            self.tempKeepAliveWebSock= temporizador(segundos=hbl.BioStar2_Websocket_SegundosKeepAliveWS,
+                                                       name="WSkeepAlive",
+                                                       callback=self.cbWebSock)
             self.conectar()
     def __run(self):
     
-        self.ws.run_forever(reconnect=5,
-                            ping_interval=hbl.BioStar2_WebSocket_TiempoEntreReconexiones/3,
-                            ping_timeout= hbl.BioStar2_WebSocket_TiempoEntreReconexiones/4, 
+        self.ws.run_forever(reconnect=100, 
                             sslopt={"cert_reqs": ssl.CERT_NONE})  
-              
-    def cb(self):
+        
+        
+        
+    def getLastDisconnectionEvent(self):
+        command = "/api/events/search"
+        query ={
+            "Query": {
+                "limit": 20,
+                "conditions": [
+                    {
+                        "column": "id",
+                        "operator": 4,
+                        "values": [
+                            hbl.BioStar2_WebSocket_Device_ID1
+                        ]
+                    }
+                ],
+                "orders": [
+                    {
+                        "column": "datetime",
+                        "descending": True
+                    }
+                ]
+            }
+        }
 
+        try:
+            
+            sesionID = self.Get_bs_session_id()
+
+            headers = {"bs-session-id" : sesionID}
+        
+            req = requests.post(url= f"{hbl.BioStar2_WebSocket_Api_Host}{command}",headers=headers,json = query,verify=False, timeout= 2)
+            
+            rows = req.content.decode()
+            rows = json.loads(rows)
+            rows =rows['EventCollection']['rows']
+            for event in rows:
+                if event["event_type_id"]["code"] == TCP_DISCONNECTED:
+                    return event
+                
+        except Exception as e:
+            print(str(e))
+        return None
+    
+    def cbWebSock(self):
+        error = False
+        try:
+            self.ws.send("basura")
+        except Exception as e:
+            
+            self.tempKeepAliveWebSock.stop()
+            log.escribeSeparador(hbl.LOGS_hblBioStar2_WebSocket)
+            log.escribeLineaLog(hbl.LOGS_hblBioStar2_WebSocket,"Se desconectaron los eventos")
+            self.ws.close()
+            error = True
+        if not error:
+          self.tempKeepAliveWebSock.start()
+          
+    def cbHTTP(self):
+        
+        event = self.getLastDisconnectionEvent()      
+        
+        self.tempKeepAliveHTTP.start()             
+        if event != None:
+            #%m/%d/%y %H:%M:%S'
+            eventTime = datetime.strptime(event["server_datetime"], "%Y-%m-%dT%H:%M:%S.%fZ")
+            if eventTime > self.lastConection:
+                self.tempKeepAliveHTTP.stop()
+                self.ws.close()
+            else:
+                self.tempKeepAliveHTTP.start()
+        else:
+            self.tempKeepAliveHTTP.start()       
+        
+    def cb(self):
         self.ws.close()
         #self.reconectarSiEsNecesario()
-        #self.temporizadorSinEventos.start()
         log.escribeSeparador(hbl.LOGS_hblBioStar2_WebSocket)
         log.escribeLineaLog(hbl.LOGS_hblBioStar2_WebSocket, "Tiempo sin eventos superado")
-        
-            
         
     def conectar(self):
         try:
@@ -74,12 +148,17 @@ class BioStar2_WebSocket(object):
             log.escribeSeparador(hbl.LOGS_hblBioStar2_WebSocket)
             log.escribeLineaLog(hbl.LOGS_hblBioStar2_WebSocket, "Conexion establecida")
             self.connected = True
+            self.lastConection = datetime.now()
             
-            self.temporizadorSinEventos.start()
+            self.tempKeepAliveHTTP.start()
+            self.tempKeepAliveWebSock.start()
+            #.start()
         except Exception as e:
             log.escribeSeparador(hbl.LOGS_hblBioStar2_WebSocket)
             log.escribeLineaLog(hbl.LOGS_hblBioStar2_WebSocket, "Error al iniciar sesion")
             log.escribeLineaLog(hbl.LOGS_hblBioStar2_WebSocket,str(e))
+            
+            self.reconectarSiEsNecesario()
 
     def SuscribirseAEventos(self):
         bs_session_id = self.Get_bs_session_id()
@@ -94,7 +173,7 @@ class BioStar2_WebSocket(object):
         
         response = requests.request("POST", url, headers=headers, data=payload,verify=False, timeout= 5)
         bs_session_id = response.headers['bs-session-id']
-
+        self.sesionID = bs_session_id
         #print(bs_session_id)
         return bs_session_id
     
@@ -108,8 +187,8 @@ class BioStar2_WebSocket(object):
         time.sleep(4)
         
     def on_message(self, ws, message):
-        self.temporizadorSinEventos.stop()
-        self.temporizadorSinEventos.start()
+        
+        
         message_json = json.loads(message)
 
         event_type_name = message_json["Event"]["event_type_id"]["name"]
@@ -118,17 +197,38 @@ class BioStar2_WebSocket(object):
         event = self.CoincidenciaDeEvento(event_type_name)
         #log.escribeSeparador(hbl.LOGS_hblBioStar2_WebSocket)
         #log.escribeLineaLog(hbl.LOGS_hblBioStar2_WebSocket,str(message_json))
-            
-        if event and device:
+        
+        server_datetime = datetime.strptime(message_json["Event"]["server_datetime"], "%Y-%m-%dT%H:%M:%S.%fZ")
+        timelocal = datetime.now()
+        if self.elEventoTieneDelayAceptable(timelocal,server_datetime):
+
+            if event and device:
+                id = message_json["Event"]["user_id"]["user_id"]
+                log.escribeSeparador(hbl.LOGS_hblBioStar2_WebSocket)
+                log.escribeLineaLog(hbl.LOGS_hblBioStar2_WebSocket,"Tipo de evento : " + event_type_name)
+                log.escribeLineaLog(hbl.LOGS_hblBioStar2_WebSocket,"Device ID : " + device_id)
+                log.escribeLineaLog(hbl.LOGS_hblBioStar2_WebSocket,"server_datetime : " + server_datetime.__str__())
+                log.escribeLineaLog(hbl.LOGS_hblBioStar2_WebSocket,"tiemporas       : " + timelocal.strftime("%Y-%m-%d %H:%M:%S"))
+                vg.WebSock_User_id = id
+                vg.WebSock_Device_id = device_id
+                vg.WebSock_Event = event_type_name
+                vg.WebSock_Data = id
+                log.escribeLineaLog(hbl.LOGS_hblBioStar2_WebSocket,"ID : " + id)
+        else:
             log.escribeSeparador(hbl.LOGS_hblBioStar2_WebSocket)
-            log.escribeLineaLog(hbl.LOGS_hblBioStar2_WebSocket,"Tipo de evento : " + event_type_name)
-            log.escribeLineaLog(hbl.LOGS_hblBioStar2_WebSocket,"Device ID : " + device_id)
-            id = message_json["Event"]["user_id"]["user_id"]
-            vg.WebSock_User_id = id
-            vg.WebSock_Device_id = device_id
-            vg.WebSock_Event = event_type_name
-            vg.WebSock_Data = id
-            log.escribeLineaLog(hbl.LOGS_hblBioStar2_WebSocket,"ID : " + id)
+            log.escribeLineaLog(hbl.LOGS_hblBioStar2_WebSocket,"server_datetime : " + server_datetime.__str__())
+            log.escribeLineaLog(hbl.LOGS_hblBioStar2_WebSocket,"tiemporas       : " + timelocal.strftime("%Y-%m-%d %H:%M:%S"))
+            log.escribeLineaLog(hbl.LOGS_hblBioStar2_WebSocket,"Reiniciando por eventos retrasados")
+            self.tempKeepAliveWebSock.stop()
+            self.tempKeepAliveHTTP.stop()
+            self.reconectarSiEsNecesario()
+            
+    def elEventoTieneDelayAceptable(self,localTime,eventTime):
+        ret = True
+        dif = abs(localTime - eventTime)
+        if dif > timedelta(seconds=hbl.BioStar2_Websocket_RetrasoDeEventoPermitido):
+            ret = False
+        return ret        
           
     def CoincidenciaDeEquipo(self,device_id):
         if device_id == hbl.BioStar2_WebSocket_Device_ID1:
@@ -158,6 +258,8 @@ class BioStar2_WebSocket(object):
         if str(error) != "'Event'":
             if str(error) == 'timed out':
                 error = "el servidor no respondio a la hora de intentar conectarse"
+            if str(error) == "'NoneType' object has no attribute 'sock'":
+                error = "No se pudo establecer el websocket"
             log.escribeSeparador(hbl.LOGS_hblBioStar2_WebSocket)
             log.escribeLineaLog(hbl.LOGS_hblBioStar2_WebSocket,"ERROR : " + str(error))
         if (str(error) == "ping/pong timed out" 
@@ -165,11 +267,12 @@ class BioStar2_WebSocket(object):
             or str(error) == 'el servidor no respondio a la hora de intentar conectarse'
             or str(error) == '[Errno 104] Connection reset by peer'
             or str(error) == '[Errno 111] Connection refused'):
-            self.ws.close()
-            self.temporizadorSinEventos.stop()
+            
             self.reconectarSiEsNecesario()
 
     def reconectarSiEsNecesario(self):
+        self.ws.close()
+        
         if self.reRun:
                 log.escribeSeparador(hbl.LOGS_hblBioStar2_WebSocket)
                 log.escribeLineaLog(hbl.LOGS_hblBioStar2_WebSocket,"Reconeccion en "+ str(hbl.BioStar2_WebSocket_TiempoEntreReconexiones) + "segundos")
@@ -179,7 +282,7 @@ class BioStar2_WebSocket(object):
                 
 
     def on_close(self,ws, close_status_code, close_msg):
-        self.temporizadorSinEventos.stop()
+        
         self.connected = False
         log.escribeSeparador(hbl.LOGS_hblBioStar2_WebSocket)
         log.escribeLineaLog(hbl.LOGS_hblBioStar2_WebSocket,"CLOSED")
@@ -191,6 +294,7 @@ class BioStar2_WebSocket(object):
     def stop(self):
         if hbl.BioStar2_WebSocket_activado:
             self.reRun = False
-            self.temporizadorSinEventos.close()   
+            self.tempKeepAliveHTTP.close()
+            self.tempKeepAliveWebSock.close()  
             self.ws.close()
             
